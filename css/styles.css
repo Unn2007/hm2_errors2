@@ -1,0 +1,177 @@
+:root {
+  --first-text-color: #2E2F42;
+  --second-text-color: #434455;
+  --hover-color: #4D5AE5;
+  --main-background-color:  #ffffff;
+}
+/* body */
+ body {
+    background-color: var(--main-background-color);
+    color: var(--first-text-color);
+    font-family: "Roboto", "sans-serif";
+ }
+  
+ /* logo */
+ .logo {
+  font-family: "Raleway";
+  color: var(--first-text-color);
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+ }
+ 
+  .logo .first-part-logo {
+   color: var(--hover-color);
+ }
+ 
+ 
+
+ /* list - link */
+ .list {
+  list-style: none;
+ }
+ .link {
+  text-decoration: none;
+  color: var(--first-text-color);
+ }
+ .list .link:hover, .list .link:focus {
+  color: var(--hover-color);
+ }
+ 
+ /*navigation*/
+ .nav-list{
+  
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+ }
+ .nav-list .nav-item {
+  color: var(--first-text-color);
+  text-decoration: none;
+ }
+ .hat .list.nav-list .nav-item:hover, .hat .list.nav-list .nav-item:focus {
+  color: var(--hover-color);
+ }
+ /* contacts */
+ .hat .mail-phone {
+ font-size: 16px;
+line-height: 1.5;
+ }
+  .mail-phone {
+  color: var(--second-text-color);
+ }
+ /* Hero */
+ .hero .hero-header {
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+
+ }
+  .hero {
+  background-color:var(--first-text-color);
+  color: var(--main-background-color);
+ }
+ .main-butoon {
+  font-family: "Roboto", "sans-serif";
+  color: var(--main-background-color);
+  background-color: var(--hover-color);
+  cursor: pointer;
+
+font-weight: 600;
+font-size: 16px;
+line-height: 1.19;
+ }
+ .main-butoon:hover, .main-butoon:focus {
+  color: var(--main-background-color);
+  background-color: var(--hover-color);
+ }
+ .section.our-team{
+  background-color: #F4F4FD;
+ }
+ /* Section */
+ .section .section-title {
+  
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+ }
+ 
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+} 
+ 
+.section .text-title {
+  
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+}
+ 
+ 
+ .section .text {
+ font-size: 16px;
+line-height: 1.5;
+  color: var(--second-text-color);
+ }
+.list-item {
+   background-color: var(--main-background-color); 
+  }
+
+  /* Footer */
+ 
+ .cave{
+  background-color:var(--first-text-color);
+  color: var(--main-background-color);
+ }
+ .cave .logo {
+  color:  #F4F4FD;
+ }
+ .cave-text {
+  
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+  
+ }
+
+ /* Portfolio */
+
+ /* Filter */
+.filter-butoon {
+  font-family: "Roboto", "sans-serif";
+ 
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+  background-color:#F4F4FD;
+  color: var(--hover-color);
+  cursor: pointer;
+}
+.filter-butoon:hover, .filter-butoon:focus{
+  background-color: var(--hover-color);
+  color: var(--main-background-color);
+}
+/* porfolio section */
+section .description {
+  
+font-size: 16px;
+line-height: 1.5;
+color: #F4F4FD;
+}
+
+
+ 
